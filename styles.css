@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* div */
+.container {
+  background-color: #758694;
+  height: 100vh;
+  display: flex;
+}
+
+.wrapper {
+  background-color: #fff;
+  margin: auto;
+  width: 80vmin;
+  padding: 1.8em;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #000;
+}
+
+/* Hitung */
+.hitung {
+  display: flex;
+  flex-direction: column;
+}
+
+.hitung > h1 {
+  margin-bottom: 1em;
+}
+
+.hitung > label {
+  font-size: 18px;
+}
+
+.hitung > input {
+  width: 250px;
+  height: 35px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #000;
+  padding-left: 5px;
+}
+
+.hitung > input:focus {
+  outline: none;
+}
+
+.hitung > button {
+  font-size: 14px;
+  width: 100px;
+  height: 37px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: rgba(0, 177, 24, 1);
+  outline: none;
+  margin-top: 5px;
+  border: 1px solid #000;
+  box-shadow: 0 0 3px #000;
+}
+
+.hitung > button:hover {
+  background-color: rgba(0, 170, 20, 1);
+}
+
+/* Hasil */
+.hasil {
+  margin-top: 40px;
+}
+
+.hasil > p {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+/* input */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
